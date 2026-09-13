@@ -28,8 +28,8 @@ const projects: Project[] = [
             "MongoDB",
 
         ],
-        githubUrl: "",
-        liveUrl: "",
+        githubUrl: "https://github.com/Mansur550/Job-Application-Tracker",
+        liveUrl: "https://job-application-tracker-rho-silk.vercel.app/",
     },
     {
         title: "UniShare – University Resource Sharing Platform",
@@ -48,9 +48,41 @@ const projects: Project[] = [
             "class-validator",
             "class-transformer",
         ],
-        githubUrl: "",
+        githubUrl: "https://github.com/Mansur550/UniShare",
         liveUrl: "",
     },
+    {
+        title: "MovieFlix",
+        category: "Frontend Web Application",
+        description:
+            "Built a responsive movie discovery application using React and the TMDB API. Users can browse trending movies and search for titles in real time, with debounced search, dynamic results, loading states, error handling, and reusable UI components.",
+        image: "/Movie.png",
+        technologies: [
+            "React",
+            "JavaScript",
+            "TMDB API",
+            "CSS",
+        ],
+        githubUrl: "https://github.com/Mansur550/MovieSite",
+        liveUrl: "",
+    },
+    {
+        title: "Secure NestJS Authentication System",
+        category: "Backend Authentication API",
+        description:
+          "Built a secure and modular authentication backend with NestJS, featuring user registration and login, JWT access and refresh tokens, HTTP-only cookie storage, protected routes with custom guards, bcrypt password hashing, and user CRUD operations. Integrated PostgreSQL with TypeORM and added DTO validation, exception handling, and environment-based configuration.",
+        image: "/NestAuth.png",
+        technologies: [
+          "NestJS",
+          "TypeScript",
+          "PostgreSQL",
+          "TypeORM",
+          "JWT",
+          "bcrypt",
+        ],
+        githubUrl: "https://github.com/Mansur550/project-nest-auth",
+        liveUrl: "",
+      },
     {
         title: "Diabetes Prediction Using Machine Learning",
         category: "Machine Learning",
