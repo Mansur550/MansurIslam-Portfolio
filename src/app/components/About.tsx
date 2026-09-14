@@ -19,7 +19,7 @@ const skills = [
     {
         title: "AI & Data Science",
         text: "Worked on Machine Learning projects with Python, including diabetes prediction and ASD detection, with hands-on experience in data preprocessing, model training, evaluation, analysis, and visualization.",
-      },
+    },
     {
         title: "Problem Solving",
         text: "Building real projects, learning by practice, improving code quality, and turning ideas into useful web applications.",
@@ -54,21 +54,29 @@ export default function About() {
         >
             <div className="mx-auto max-w-7xl">
                 <div className="mb-10 block text-center lg:hidden">
-                
+
                     <h2 className="text-5xl font-bold">About Me</h2>
                 </div>
 
                 <div className="grid items-start gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
                     <div className="flex justify-center lg:sticky lg:top-28">
-                        <div className="w-full max-w-sm overflow-hidden rounded-2xl border border-violet-300/20 bg-white/[0.04] p-2 shadow-[0_22px_70px_rgba(124,58,237,0.18)] sm:max-w-md">
-                            <Image
-                                src="/Mansur.jpg"
-                                alt="Md Mansur Islam"
-                                width={520}
-                                height={680}
-                                className="h-[430px] w-full rounded-xl object-cover object-center sm:h-[560px] lg:h-[650px]"
-                                sizes="(max-width: 768px) 100vw, 420px"
-                            />
+                        <div className="w-full max-w-sm overflow-hidden rounded-2xl  p-2 shadow-[0_22px_70px_rgba(124,58,237,0.18)] sm:max-w-md">
+                            <div className="group relative overflow-hidden rounded-xl p-2 shadow-[0_20px_60px_rgba(124,58,237,0.15)] backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-violet-300/50 hover:bg-white/[0.08] hover:shadow-[0_25px_80px_rgba(139,92,246,0.3)]">
+                                <Image
+                                    src="/Mansur.jpg"
+                                    alt="Md Mansur Islam"
+                                    width={520}
+                                    height={680}
+                                    className="h-[430px] w-full rounded-lg object-cover object-center transition-[transform,filter] duration-700 ease-out group-hover:scale-[1.04] group-hover:brightness-110 sm:h-[560px] lg:h-[650px]"
+                                    sizes="(max-width: 768px) 100vw, 420px"
+                                />
+
+                                {/* Liquid-glass reflection */}
+                                <div
+                                    aria-hidden="true"
+                                    className="pointer-events-none absolute inset-0 -translate-x-[140%] bg-[linear-gradient(115deg,transparent_30%,rgba(255,255,255,0.18)_50%,transparent_70%)] transition-transform duration-700 ease-out group-hover:translate-x-[140%]"
+                                />
+                            </div>
                         </div>
                     </div>
 

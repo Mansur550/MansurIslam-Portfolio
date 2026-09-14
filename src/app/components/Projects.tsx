@@ -88,7 +88,7 @@ const projects: Project[] = [
         category: "Machine Learning",
         description:
             "Built a Python-based machine learning workflow to estimate diabetes risk from patient health data. The project covers data preparation, classification model training, performance evaluation, and interpretation of prediction results.",
-        image: "/projects/diabetes-prediction.png",
+        image: "",
         technologies: [
             "Python",
             "Machine Learning",
@@ -103,7 +103,7 @@ const projects: Project[] = [
         category: "Machine Learning",
         description:
             "Developed a machine learning project for ASD screening using structured data. Focused on preprocessing, feature selection, classification, and evaluating model performance to produce clear and meaningful results.",
-        image: "/projects/asd-detection.png",
+        image: "",
         technologies: [
             "Python",
             "Classification",
@@ -118,7 +118,7 @@ const projects: Project[] = [
         category: "Web Development",
         description:
             "Building a modern single-page portfolio with Next.js and Tailwind CSS. The website uses reusable components, responsive layouts, optimized images, accessible navigation, and a restrained liquid-glass visual style.",
-        image: "/projects/portfolio.png",
+        image: "",
         technologies: [
             "Next.js",
             "TypeScript",
