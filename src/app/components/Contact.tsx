@@ -180,7 +180,7 @@ export default function Contact() {
               <button
                 type="submit"
                 className="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-violet-300/30 bg-violet-600/80 px-6 py-3.5 font-semibold text-white shadow-[0_10px_30px_rgba(124,58,237,0.2)] backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-white/30 hover:bg-white/[0.12] hover:shadow-[0_0_30px_rgba(139,92,246,0.4)] sm:w-auto"
-              
+
               >
                 Send Message
                 <Send
