@@ -112,6 +112,24 @@ const projects: Project[] = [
         liveUrl: "",
     },
     {
+        title: "ASD Screening Using Machine Learning & AI",
+        category: "Machine Learning",
+        description:
+            "Developed an end-to-end ASD screening classification project using combined child, adolescent, and adult questionnaire datasets. Cleaned and encoded 1,100 records, applied chi-square feature selection, compared and tuned seven machine learning models, and used SHAP visualizations to explain model predictions and feature influence.",
+        image: "/ASD.png",
+        technologies: [
+            "Python",
+            "Pandas",
+            "Scikit-learn",
+            "XGBoost",
+            "SHAP",
+            "Seaborn",
+        ],
+        githubUrl:
+            "https://github.com/Mansur550/Autism-Spectrum-Disorder",
+
+    },
+    {
         title: "Diabetes Prediction Using Machine Learning",
         category: "Machine Learning",
         description:
@@ -126,27 +144,13 @@ const projects: Project[] = [
         githubUrl: "",
         liveUrl: "",
     },
-    {
-        title: "ASD Detection Using Machine Learning",
-        category: "Machine Learning",
-        description:
-            "Developed a machine learning project for ASD screening using structured data. Focused on preprocessing, feature selection, classification, and evaluating model performance to produce clear and meaningful results.",
-        image: "",
-        technologies: [
-            "Python",
-            "Classification",
-            "Feature Selection",
-            "Data Analysis",
-        ],
-        githubUrl: "",
-        liveUrl: "",
-    },
+
     {
         title: "Personal Developer Portfolio",
         category: "Web Development",
         description:
             "Building a modern single-page portfolio with Next.js and Tailwind CSS. The website uses reusable components, responsive layouts, optimized images, accessible navigation, and a restrained liquid-glass visual style.",
-        image: "",
+        image: "/Portfolio.png",
         technologies: [
             "Next.js",
             "TypeScript",
@@ -154,7 +158,7 @@ const projects: Project[] = [
             "Responsive Design",
         ],
         githubUrl: "",
-        liveUrl: "",
+        liveUrl: "https://mansur-islam-portfolio.vercel.app/",
     },
 ];
 
