@@ -25,7 +25,12 @@ const projects: Project[] = [
             "React",
             "TypeScript",
             "Tailwind CSS",
+            "Zod",
+            "Shadcn UI",
             "MongoDB",
+            "Mongoose",
+            "Better Auth",
+
 
         ],
         githubUrl: "https://github.com/Mansur550/Job-Application-Tracker",
@@ -70,19 +75,42 @@ const projects: Project[] = [
         title: "Secure NestJS Authentication System",
         category: "Backend Authentication API",
         description:
-          "Built a secure and modular authentication backend with NestJS, featuring user registration and login, JWT access and refresh tokens, HTTP-only cookie storage, protected routes with custom guards, bcrypt password hashing, and user CRUD operations. Integrated PostgreSQL with TypeORM and added DTO validation, exception handling, and environment-based configuration.",
+            "Built a secure and modular authentication backend with NestJS, featuring user registration and login, JWT access and refresh tokens, HTTP-only cookie storage, protected routes with custom guards, bcrypt password hashing, and user CRUD operations. Integrated PostgreSQL with TypeORM and added DTO validation, exception handling, and environment-based configuration.",
         image: "/NestAuth.png",
         technologies: [
-          "NestJS",
-          "TypeScript",
-          "PostgreSQL",
-          "TypeORM",
-          "JWT",
-          "bcrypt",
+            "NestJS",
+            "TypeScript",
+            "PostgreSQL",
+            "TypeORM",
+            "JWT",
+            "bcrypt",
+            "class-validator",
+            "class-transformer",
+
         ],
         githubUrl: "https://github.com/Mansur550/project-nest-auth",
         liveUrl: "",
-      },
+    },
+    {
+        title: "Smart AI Weighing & Billing System",
+        category: "Embedded AI & IoT",
+        description:
+            "Built a smart retail and automated checkout system using ESP32-CAM, TinyML, and a load cell. The system visually identifies products with an on-device Edge Impulse model, measures their weight through the HX711 sensor, and calculates the total price in real time. It operates completely offline and combines computer vision, sensor data, and embedded AI in a low-cost solution.",
+        image: "/esp.png",
+        technologies: [
+            "ESP32-CAM",
+            "Embedded C++",
+            "Arduino",
+            "Edge Impulse",
+            "TinyML",
+            "HX711",
+            "Load Cell",
+            "Computer Vision",
+        ],
+        githubUrl:
+            "https://github.com/Mansur550/smart-ai-weighing-billing",
+        liveUrl: "",
+    },
     {
         title: "Diabetes Prediction Using Machine Learning",
         category: "Machine Learning",
